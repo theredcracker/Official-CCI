@@ -1,0 +1,100 @@
+button {
+	font-size: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.event-flexbox {
+	display: flex;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+
+.event-box {
+	width: 500px;
+	/* CHANGE THE WIDTH AND HEIGHT TO WHATEVER */
+	border: 2px solid red;
+	border-radius: 10px;
+	background-color: black;
+
+	margin-top: 0px;
+	padding: 10px 20px 10px 20px;
+	/* CHANGE THIS TOO IF YOU WANT */
+	/* makes everything inside colums */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.first-event {
+	width: 300px;
+	margin-bottom: 30px;
+	border: solid;
+	border-color: white;
+	border-radius: 3px;
+	border-width: 2px;
+}
+
+.event1-status {
+	color: rgb(0, 224, 0);
+	font-weight: bold;
+}
+
+.event2-status{
+    color: rgb(242, 255, 0);
+	font-weight: bold;
+}
+
+.event-title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* */
+.deactivated-join-button1, .deactivated-donate-button1 {
+	background-color: gray;
+	color: rgb(255, 255, 255);
+	border: 1px solid rgb(90, 90, 90);
+	border-radius: 4px;
+
+	margin: 0px 80px 30px 80px;
+	padding: 10px 10px;
+	cursor: pointer;
+}
+
+.join-button2, .donate-button2 {
+	font-size: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+
+	background-color: transparent;
+	color: rgb(0, 255, 34);
+	
+	border: 1px solid rgb(10, 115, 0);;
+	border-radius: 4px;
+
+	margin: 0px 80px 30px 80px;
+	padding: 10px 10px;
+	transition: opacity 0.15s;
+	transition: border-color 0.5s;
+	transition: color 0.5s;
+	cursor: pointer;
+}
+
+.join-button2:hover, .donate-button2:hover {
+	border-color: rgb(156, 0, 0);
+	color: rgb(255, 0, 0);
+}
+
+.membership-buy:active {
+	opacity: 0.7;
+}
+
+.event-footage-link {
+	color: rgb(105, 145, 255);
+}

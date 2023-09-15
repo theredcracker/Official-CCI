@@ -1,0 +1,75 @@
+
+
+/* BELOW IS THE EXTRA STUFF FOR EXPLANATION */
+
+.my-idea {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* DONE */
+
+.forebidden-text{
+  text-decoration: line-through;
+}
+
+
+
+.first-letter{
+  font-size: 20px;
+}
+
+/* TOP IMAGE */
+.is2-event-image{
+  object-fit:cover;
+  height: 300px;
+  width: 100%;
+}
+
+.tpog-image{
+  border-radius: 2px;
+  width: 300px;
+  border: 3px solid rgb(255, 0, 0);
+  margin-left: 10px;
+}
+.collab-image{
+  border-radius: 2px;
+  width: 300px;
+  border: 3px solid rgb(255, 0, 0);
+  margin-right: 10px;
+}
+
+.image-label{
+  position: absolute;
+  background-color: black;
+  padding: 3px;
+}
+
+.grid {
+  display: flex;
+  margin-top: 10px;
+}
+
+.text-title {
+  margin-top: 0;
+}
+
+.explanation-text {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.about-cci{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.links {
+  color: blueviolet;
+  transition: color 0.5s;
+}
+
+.links:hover {
+  color: red;
+}

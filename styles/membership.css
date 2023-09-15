@@ -1,0 +1,80 @@
+.membership-flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 400px 10px 400px
+}
+
+.membership-box {
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: black;
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.membership-title {
+    margin-top: 20px;
+    font-size: 30px;
+    height: 60px;
+    font-weight: bold;
+}
+
+
+.membership-image {
+    width: 100px;
+    margin: 20px 20px;
+}
+
+.membership-description {
+    font-size: 14px;
+}
+
+.membership-cost {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.membership-buy {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 4px;
+
+    margin: 0px 80px 30px 80px;
+    padding: 10px 10px;
+    transition: opacity 0.15s;
+    transition: border-color 0.15s;
+    transition: color 0.15s;
+    cursor: pointer;
+}
+
+.membership-buy:hover {
+    border-color: white;
+    color: red;
+}
+
+.membership-buy:active {
+    opacity: 0.7;
+}
+
+.never-gonna-stop {
+    color: white;
+    text-decoration: none;
+}
+
+.top-text {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
